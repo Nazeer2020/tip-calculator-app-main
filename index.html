@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>Frontend Mentor | Tip calculator app</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  
+  <link rel="stylesheet" type="text/css" href="./CSS/Grid.css">
+  <link rel="stylesheet" type="text/css" href="./CSS/normalize.css">
+  <link rel="stylesheet" type="text/css" href="./CSS/style.css">
+  <link rel="stylesheet" type="text/css" href="./CSS/queries.css">
+  <script src="index.js" defer></script>
+
+</head>
+
+<body>
+  <img src="./images/logo.svg" alt="logo">
+  <div class="row">
+    <div class="col  span-2-of-2 box-1">
+      <h4>Bill</h4>
+      <input class="bill" placeholder="Bill Amount"  type="text" autofocus="false">
+      <h4>Select Tip %</h4>
+
+      <button class="btn" >5%</button>
+      <button class="btn" >10%</button>
+      <button class="btn" >15%</button>
+      <button class="btn" >25%</button>
+      <button class="btn" >50%</button>
+      <input class="button customise" placeholder="Customise" type="text">
+      
+      <h4>Number of People</h4>
+      <input class="person" type="number" placeholder="Number of People" autofocus="false" />
+    </div>
+    <div class="col  span-2-of-2 box-2">
+      <div>
+        <h5>Tip Amount<br><span>/person</span> </h5>
+        <span class="tip_amount">0</span>
+      </div>
+      <div>
+        <h5>Total<br><span>/person</span> </h5>
+        <span class="total_tip">0</span>
+      </div>
+      <button class="reset">Reset</button>
+      
+    </div>
+  </div>
+
+
+</body>
+
+</html>

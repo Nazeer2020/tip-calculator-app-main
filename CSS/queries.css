@@ -1,0 +1,26 @@
+@media only screen and (max-width: 1440px) and (min-width: 481px){
+    .col {
+        width: 49%;
+        height: 100%;
+    }
+
+    .row {
+        border-radius: 15px;
+        height: 400px;
+        width: 70vw;
+    }
+
+    .box-2 {
+        border-radius: 15px;
+        height: 350px; 
+    }
+
+    .box-2 button {
+        margin-top: 30.1%;
+        margin-bottom: 15%;
+    }
+
+    button:hover {
+     background-color: rgb(202, 243, 243);
+    }
+}

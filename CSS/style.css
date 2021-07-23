@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap');
+
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Space Mono', monospace;
+    font-size: 18px;
+    text-align: center;
+    background-color: hsl(185, 41%, 84%);
+}
+
+
+.row {
+    /* width: 365px; */
+    margin: 0 auto;
+    background-color: #fff;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    
+}
+
+.row ul {
+    list-style-type: none;
+}
+
+img {
+    margin: 50px;
+}
+
+/* links and buttons */
+
+.row a { text-decoration: none;}
+
+.button,
+ button {
+    width: 43%;
+    height: 30px;
+    border-radius: 5px;
+    cursor: pointer;
+    position: relative;
+    margin: 5px 0;
+    background-color: hsl(183, 100%, 15%);
+    color: #fff;
+    border: none;  
+}
+
+button:hover {
+    color: #000;
+    background-color: hsl(172, 67%, 45%);
+}
+
+.box-2 button {
+    width: 90%;
+    height: 30px;
+    background-color: hsl(172, 67%, 45%);
+    color: #000;
+    text-transform: uppercase;
+}
+
+/* headdings */
+h4 {
+    text-align: left;
+    padding-left: 5%;
+    font-size: 70%;
+    color: hsl(183, 100%, 15%);
+    
+}
+
+.box-2 h5 {
+    display: inline-block;
+    font-size: 60%;
+    color: #fff;
+    margin: 5% 0 5% 5%;
+}
+
+
+/* boxes */
+
+.box-1 input {
+    width: 90%;
+    background-color: hsl(189, 41%, 97%);
+    border-radius: 5px;
+    border: none;
+    outline: none;
+}
+
+.box-1 input[type] {
+    font-size: 24px;
+}
+
+
+
+.box-2 {
+    background-color: hsl(183, 100%, 15%);
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    margin-left: -1px;
+    margin-top: 20px;
+}
+
+.box-2 div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.box-2 span {
+    margin: 5% 5% 5% 0;
+    color: hsl(172, 67%, 45%);
+}
+
+.box-2  h5 span {
+    color: hsl(180, 3%, 61%);
+}
+
+.box-1 .button {
+    width: 43%;
+    height: 30px;
+    border-radius: 5px;
+    cursor: pointer;
+    position: relative;
+    margin: 5px 0;
+    color:#000;
+    border: none;  
+}
+
+::placeholder {
+    font-size: 50%;
+    text-align: center;
+    
+}
+
+
